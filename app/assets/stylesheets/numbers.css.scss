@@ -1,0 +1,53 @@
+// Place all the styles related to the Numbers controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+*{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+h1{
+    font-size: 18px;
+}
+
+h2{
+    font-size: 14px;
+}
+
+p{
+    padding-top:60px;
+}
+
+form{
+    display:inline-block;
+}
+
+.red{
+    height: 175px;
+    width:200px;
+    background-color: red;
+    color: white;
+    text-align:center;
+    display:inline-block;
+}
+
+.green{
+    height: 175px;
+    width:200px;
+    background-color: rgb(0,158,44);
+    color: white;
+    margin: 0px auto;
+    text-align:center;
+}
+
+#low{
+    float:left;
+}
+
+#high{
+    float:right;
+}
+
+
+

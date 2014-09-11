@@ -1,0 +1,6 @@
+<%= session[:page_header].html_safe %>
+
+<% if flash[:message] %>
+        <%= flash[:message].html_safe %>
+<% end %>
+

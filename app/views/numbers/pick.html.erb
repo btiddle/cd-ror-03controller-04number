@@ -1,0 +1,7 @@
+<%= session[:page_header].html_safe %>
+
+<form action='/numbers/guess' method='post'>
+    <%= tag(:input,:type =>"hidden",:name => request_forgery_protection_token.to_s,:value => form_authenticity_token)%>
+    <input type='number' min="1" max="100" name='guess'><br>
+    <input type='submit'>
+</form>
